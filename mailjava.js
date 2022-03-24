@@ -20,7 +20,7 @@ if(controllo==0)
 
 {
     alert("non puoi accedere ");
-    richiesta = prompt("vuoi inserire questa email nella lista ? premi 's' per inserire 'n'");
+    richiesta = prompt("vuoi inserire questa email nella lista ? premi 's' per inserire 'n' per non inserirla");
     if (richiesta=="s")
     {
         lista.push(email);
