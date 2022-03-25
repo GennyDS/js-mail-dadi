@@ -1,13 +1,13 @@
  
  
-   var num1=Math.round(Math.random()*5+1);
-   var num2=Math.round(Math.random()*5+1);
+  let num1=Math.round(Math.random()*5+1);
+  let num2=Math.round(Math.random()*5+1);
     
 
 
 	console.log("Hai ottenuto " + num1 );
-	var giocatore=num1;
-    var cpu=num2;
+    let giocatore=num1;
+    let cpu=num2;
     console.log("======================================")
     console.log("CPU ha ottenuto " + num2);
 	
@@ -22,18 +22,19 @@
 
  
  
- 
- /*var num1=Math.round(Math.random()*5+1);
-   var num2=Math.round(Math.random()*5+1);
-    var num3=Math.round(Math.random()*5+1);
-	var num4=Math.round(Math.random()*5+1);
+  
+
+ /*letnum1=Math.round(Math.random()*5+1);
+   letnum2=Math.round(Math.random()*5+1);
+    let num3=Math.round(Math.random()*5+1);
+	let num4=Math.round(Math.random()*5+1);
 
 
 	console.log("Hai ottenuto " + num1 + ", " + num2);
-	var giocatore=num1+num2;
+	let giocatore=num1+num2;
 	console.log("hai totalizzato " + giocatore + " punti");
 	
-    var cpu=num3+num4;
+   let cpu=num3+num4;
     console.log("======================================")
     console.log("CPU ha ottenuto " + num3 + ", " + num4);
 	console.log("CPU ha totalizzato " + cpu + " punti");
