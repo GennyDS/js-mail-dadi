@@ -24,8 +24,8 @@
  
   
 
- /*letnum1=Math.round(Math.random()*5+1);
-   letnum2=Math.round(Math.random()*5+1);
+ /*let num1=Math.round(Math.random()*5+1);
+   let num2=Math.round(Math.random()*5+1);
     let num3=Math.round(Math.random()*5+1);
 	let num4=Math.round(Math.random()*5+1);
 
